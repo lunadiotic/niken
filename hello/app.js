@@ -1,6 +1,5 @@
 const d = new Date();
 let hour = d.getHours();
-hour = 21;
 
 // Pagi
 if (hour < 12 && hour >= 4) {
