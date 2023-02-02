@@ -13,25 +13,20 @@
 body {
 	min-height: 100vh;
 	font-size: calc(0.5em + 1vmin);
-	/* display: flex; */
 	align-items: center;
 	justify-content: space-around;
 	flex-flow: row wrap;
 	font-family: 'Work Sans', sans-serif;
-	/* background: #212125; */
 	color: #e6e8db;
 }
 
 #greeting {
-	color: dimgray;
 	font-size: larger;
 	font-weight: 600;
-	width: 230px;
+	width: 400px;
 	height: 230px;
-	/* background-color: #f4f4f4; */
 	position: absolute;
 	top: 50%;
-	left: 55%;
 	transform: translate(-50%, -50%);
 }
 
@@ -428,7 +423,7 @@ body {
 	height: 230px;
 	/* background-color: #f4f4f4; */
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
