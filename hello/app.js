@@ -13,6 +13,18 @@ if (hour < 15 && hour >= 12) {
 	document.querySelector('[icon="sunny"]').style.display = 'block';
 	document.querySelector('title').innerHTML = 'Siang Niken, Jangan Lupa Makan';
 	document.querySelector('body').style.backgroundColor = '#B6EEF5';
+	let greetings = [
+		'<p>Siang Niken,</p><p>Jangan lupa makan.</p>',
+		'<p>Terik gak terik</p><p>Jangan lupa minum yg cukup.</p>',
+		'<p>Iken</p><p>Kalo ngantuk, peregangan dulu.</p>',
+		'<p>Niken..</p><p>Jangan lupa sholat ya kalo gak halangan.</p>',
+	];
+	new Typed('#greeting', {
+		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
+		typeSpeed: 40,
+		fadeOut: true,
+		loop: false,
+	});
 }
 // Sore
 if (hour < 18 && hour >= 15) {

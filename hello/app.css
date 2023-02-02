@@ -22,6 +22,19 @@ body {
 	color: #e6e8db;
 }
 
+#greeting {
+	color: dimgray;
+	font-size: larger;
+	font-weight: 600;
+	width: 230px;
+	height: 230px;
+	/* background-color: #f4f4f4; */
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+}
+
 [icon] {
 	flex: none;
 	display: none;
@@ -415,7 +428,7 @@ body {
 	height: 230px;
 	/* background-color: #f4f4f4; */
 	position: absolute;
-	top: 70%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
