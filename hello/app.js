@@ -11,6 +11,13 @@ if (hour < 12 && hour >= 4) {
 		"<p>Niken, How's your sleep?</p>",
 		'<p>Iken...</p>^1000<p>Banguuuun...</p>',
 		'<p>Niken..</p>^1000<p>Siap-siap subuhanya.</p>',
+		'<p>Pagi..</p>^1000<p>Moga pagimu seindah pesonamu.</p>',
+		'<p>Are you my morning coffee?</p>^1000<p>Because you fill me with energy.</p>',
+		'<p>Gak suka sih bangun pagi..</p>^1000<p>Tapi kalo buat liat kamu jadi pengen buru-buru.</p>',
+		"<p>If you were a worm, I'd be a bird.</p>^1000<p>The early bird gets the worm.</p>",
+		'<p>Ko hari ini cerah ya?</p>^1000<p>atau karena senyuman kamu doang? Ckckc..</p>',
+		'<p>Eh ko kaya masih mimpi sih, masih liat ada senyum kamu?</p>',
+		"<p>You wanna know what's beautiful? Read the first word again.</p>",
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
@@ -28,7 +35,9 @@ if (hour < 15 && hour >= 12) {
 		'<p>Siang Niken,</p><p>Jangan lupa makan.</p>',
 		'<p>Terik gak terik</p><p>Jangan lupa minum yg cukup.</p>',
 		'<p>Iken</p><p>Kalo ngantuk, peregangan dulu.</p>',
+		'<p>Lensa photocromic gue suka jadi item kalo liat kamu. Too shining...</p>',
 		'<p>Niken..</p><p>Jangan lupa sholat ya kalo gak halangan.</p>',
+		'<p>Kalo siang pengennya minum terus.</p>^1000<p>Kalo pulang, maunya kamu :p.</p>',
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
@@ -45,6 +54,7 @@ if (hour < 18 && hour >= 15) {
 	let greetings = [
 		'<p>Yok bisa yok</p>^1000<p>Tanggung sebentar lagi pulaaang.</p>',
 		'<p>Iken</p>^1000<p>Pulangnya nanti hati-hati ya...</p>',
+		'<p>Leave me a smile just warm enough to spend a million golden hour in afternoon.</p>',
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
@@ -62,6 +72,7 @@ if (hour < 21 && hour >= 18) {
 		'<p>Santuy dulu sabi kali Niken</p><p>Sambil scroll-scroll postingan kucing.</p>',
 		'<p>Iken</p>^2000<p>Isyaan udah?</p>',
 		'<p>Hari ini lancar kan Niken?</p>',
+		'<p>Gak sabar pengen liat glowingmu lagi besok hari.</p>',
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
@@ -80,6 +91,7 @@ if (hour >= 21 || hour < 4) {
 		'<p>Niken...</p>^1000<p>Kalo tengah malem masih bangun, besok lemes ntar.</p>',
 		'<p>Sleep tight, Niken.</p>',
 		"<p>Don't miss me already. ^1000 We'll meet soon. :p</p>",
+		"<p>Even if there wasn't gravity on Earth, I'd still fall for you. Night.</p>",
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
