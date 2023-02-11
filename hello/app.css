@@ -615,3 +615,11 @@ body {
 		transform: rotate(0);
 	}
 }
+
+img {
+	width: 50%;
+	height: 50%;
+	margin-left: 90%;
+	margin-top: 40%;
+	object-fit: cover;
+}
