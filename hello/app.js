@@ -1,5 +1,6 @@
 const d = new Date();
 let hour = d.getHours();
+hour = 2;
 
 // Pagi
 if (hour < 12 && hour >= 4) {
@@ -85,7 +86,8 @@ if (hour < 21 && hour >= 18) {
 	});
 }
 // Bobo
-if (hour >= 21 || hour < 4) {
+// if (hour >= 21 || hour < 4) {
+if (hour < 2 || hour >= 21) {
 	document.querySelector('[icon="supermoon"]').style.display = 'block';
 	document.querySelector('body').style.backgroundColor = '#1f2223';
 	let greetings = [
@@ -95,6 +97,20 @@ if (hour >= 21 || hour < 4) {
 		'<p>Sleep tight, Niken.</p>',
 		"<p>Don't miss me already. ^1000 We'll meet soon. :p</p>",
 		"<p>Even if there wasn't gravity on Earth, I'd still fall for you. Night.</p>",
+	];
+	new Typed('#greeting', {
+		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
+		typeSpeed: 40,
+		fadeOut: true,
+		loop: false,
+	});
+}
+
+if (hour >= 2 && hour < 4) {
+	document.querySelector('[icon="supermoon"]').style.display = 'block';
+	document.querySelector('body').style.backgroundColor = '#1f2223';
+	let greetings = [
+		'<p>Do you wanna know something?^1000 Please, <a href="/story" style="font-weight:bold"><u>click here</u></a>.</p>',
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
