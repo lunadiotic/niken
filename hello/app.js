@@ -1,6 +1,6 @@
 const d = new Date();
 let hour = d.getHours();
-hour = 2;
+// hour = 3;
 
 // Pagi
 if (hour < 12 && hour >= 4) {
@@ -106,11 +106,33 @@ if (hour < 2 || hour >= 21) {
 	});
 }
 
-if (hour >= 2 && hour < 4) {
+if (hour == 3) {
 	document.querySelector('[icon="supermoon"]').style.display = 'block';
 	document.querySelector('body').style.backgroundColor = '#1f2223';
+	document.querySelector('img').style.display = 'none';
+
 	let greetings = [
 		'<p>Do you wanna know something?^1000 Please, <a href="/story" style="font-weight:bold"><u>click here</u></a>.</p>',
+	];
+	new Typed('#greeting', {
+		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
+		typeSpeed: 40,
+		fadeOut: true,
+		loop: false,
+	});
+}
+
+if (hour >= 2 && hour < 3) {
+	document.querySelector('[icon="supermoon"]').style.display = 'block';
+	document.querySelector('body').style.backgroundColor = '#1f2223';
+	document.querySelector('img').style.display = 'none';
+
+	let greetings = [
+		'<p>Do you wanna know something?^1000 Please, <a href="/story" style="font-weight:bold"><u>click here</u></a>.</p>',
+		"<p>When I sad and it just because I miss you, my blood feels like cold, getting freeze and my body don't wanna move. ^1000 That was sick.</p>",
+		'<p>Jujur sih^1000, gada respon itu bikin overthinking. am I oversharing?</p>',
+		"<p>It's 2 AM, and I'm still thinking about you. ^1000 I'm sorry, I'm not good at this.</p>",
+		"<p>I'm sorry if I say things that might piss you off and that I can get annoying.</p>",
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
