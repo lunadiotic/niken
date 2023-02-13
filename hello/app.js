@@ -58,6 +58,7 @@ if (hour < 18 && hour >= 15) {
 		'<p>Iken</p>^1000<p>Pulangnya nanti hati-hati ya...</p>',
 		'<p>Leave me a smile just warm enough to spend a million golden hour in afternoon.</p>',
 		'<p>Boleh bagi <i>electron</i> kamu gak? Biar aku stabil lagi abis kerja ini.</p>',
+		'<p>I admit I smile every your name pop-up on my phone notification.</p>',
 	];
 	new Typed('#greeting', {
 		strings: [greetings[Math.floor(Math.random() * greetings.length)]],
